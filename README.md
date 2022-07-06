@@ -52,6 +52,16 @@ To develop the application I used Next together with Typescript and styled-compo
   <li>React Toastify</li>
   <li>Styled Components</li>
 
+### :camera: Screenshots
+ 
+ 
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Login faill" src="https://user-images.githubusercontent.com/81276751/177627359-18647ba4-ef59-4432-8a52-79ab95b44c26.png" width="400px">
+   &nbsp; &nbsp; &nbsp;
+  <img alt="Login success" src="https://user-images.githubusercontent.com/81276751/177627577-4f28b711-70be-448f-b5d0-933f24f9e8b4.png" width="400px">
+  <img alt="SignUp" src="https://user-images.githubusercontent.com/81276751/177627801-6aed3c70-470a-4517-9cea-8d10ba62a5b9.png" width="400px">
+</p>
+
 ## Getting Started
 
 To run the project locally, follow these steps:
