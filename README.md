@@ -1,50 +1,51 @@
-# Teste FrontEnd EVOB
+# EVOB FrontEnd Test
 
-Desafio frontend construído para participação de processo seletivo da empresa EVOB
+Frontend challenge built for participation in selection process of EVOB company
 
-## Requisitos do projeto:
+## Project requirements
 
 ---
 
-- Crie o seu projeto utilizando Next.js e Typescript
-- Componha a tela de login seguindo o design descrito em:
+- Create your project using Next.js and Typescript
+- Compose the login screen following the design described in:
   Figma: https://www.figma.com/file/sP4N5PeWWkd3jJuYNdJU36/Teste-Frontend-EVOB?node-id=0%3A1
-- Preencha os elementos visuais (textos e logotipo) recebidos através do endpoint:
+- Fill in the visual elements (text and logo) received through the endpoint:
   get - https://front.evob.dev.marcomapa.com/front_challenge/info
-- Envie os campos [email] e [password] preenchidos como form-data p/ o endpoint:
+- Send the filled [email] and [password] fields as form-data to the endpoint:
   post - https://front.evob.dev.marcomapa.com/front_challenge/login
-- Exiba os retornos da API ao usuário
-  Dados p/ teste:
-  E-mail: testfront@evob.com.br Senha: 123456
-  Qualquer outro usuário ou senha retornará: "Usuário/Senha inválidos"
+- Display the API returns to the user
+  Test data:
+  Email: testfront@evob.com.br Password: 123456
+  Any other user or password will return: "Usuário/Senha inválidos"
 
 ---
 
-O que será avaliado:
+What will be evaluated:
 
 - Clean Code;
-- Organização;
+- Organization;
 - Pixel Perfect;
-- Boas Práticas;
-- Responsividade
+- Best Practices;
+- Responsiveness
 
 ---
 
-## Implementação final:
+## Final implementation
 
-### Ajustes e melhorias
+### Adjustments and improvements
 
-Como melhorias para o projeto tomei a decisão de implementar:
+As improvements to the project I made the decision to implement:
 
-- [x] Loader Spinner ao fazer requisição de login;
-- [x] Avisos com a biblioteca de toast para feedback ao usuário;
+- [x] Loader Spinner when making login request;
+- [x] Warnings with toast library for user feedback;
 - [x] Ajuste de navegação entre páginas no deploy vercel;
 
-### :robot: Tecnologias:
 
-Para desenvolvimento da aplicação foi utlizada Next juntamente Typescript e styled-components, e uma API própria foi fornecida pela EVOB para fazer a requisição dos dados. Usando a url base `https://front.evob.dev.marcomapa.com/front_challenge` consultando os método [`GET /info`] para acessarmos os elementos visuais da aplicação, e o método [`POST /login/`] para autenticar um usuário.
+### :robot: Technologies:
 
-### :books: Bibliotecas utilizadas
+To develop the application I used Next together with Typescript and styled-components, and API was provided by EVOB to request the data. Using the base url `https://front.evob.dev.marcomapa.com/front_challenge` consulting the method [`GET /info`] to access the visual elements of the application, and the method [`POST /login/`] to authenticate a user.
+
+### :books: Libraries used
 
   <li>React Icons</li>
   <li>React Loader Spinner</li>
@@ -53,20 +54,20 @@ Para desenvolvimento da aplicação foi utlizada Next juntamente Typescript e st
 
 ## Getting Started
 
-Para rodar o projeto localmente, siga estas etapas:
+To run the project locally, follow these steps:
 
-Faça o clone desse repositório em seu computador e execute o comando:
+Clone this repository on your computer and run the command:
 
 ```bash
 npm install
-# e
+# and
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado!
+Open http://localhost:3000 with your browser to see the result.
 
 ## Deploy on Vercel
 
-https://tapttoo.vercel.app/
+The application is deployed with vercel in the link https://tapttoo.vercel.app/
