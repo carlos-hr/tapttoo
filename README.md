@@ -38,7 +38,7 @@ Como melhorias para o projeto tomei a decisão de implementar:
 
 - [x] Loader Spinner ao fazer requisição de login;
 - [x] Avisos com a biblioteca de toast para feedback ao usuário;
-- [x] Navegação entre páginas
+- [x] Ajuste de navegação entre páginas no deploy vercel;
 
 ### :robot: Tecnologias:
 
@@ -68,3 +68,5 @@ yarn dev
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado!
 
 ## Deploy on Vercel
+
+https://tapttoo.vercel.app/
